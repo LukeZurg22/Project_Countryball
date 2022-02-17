@@ -35,6 +35,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/hats/trappy.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/hats/turk.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/hats/void.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/hats/xelarex.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/styles/circle_3d.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/flags/poland.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/styles/circle_sharp.png")]

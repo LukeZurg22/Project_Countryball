@@ -45,6 +45,7 @@
     <None Remove="Assets\Hats\TRAPPY.png" />
     <None Remove="Assets\Hats\TURK.png" />
     <None Remove="Assets\Hats\VOID.png" />
+    <None Remove="Assets\Hats\XELAREX.png" />
     <None Remove="Assets\Icons\Compress.png" />
     <None Remove="Assets\Icons\Down.png" />
     <None Remove="Assets\Icons\Expand.png" />
@@ -137,6 +138,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Hats\VOID.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\XELAREX.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Styles\Circle_3D.png">

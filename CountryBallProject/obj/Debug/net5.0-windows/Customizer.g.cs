@@ -110,7 +110,7 @@ namespace CountryBallProject {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CountryBallProject_r2jyxy23_wpftmp;component/customizer.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CountryBallProject;component/customizer.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Customizer.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,2 +1,3 @@
 ﻿Add Blending (multiply) for the 3D Image
 Add Flushed Emoji
+Make flag icon adjust alongside the real flag's changes

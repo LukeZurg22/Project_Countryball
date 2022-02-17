@@ -180,3 +180,4 @@ C:\Users\LukeZurg22_Gaming\source\repos\Project_Countryball\CountryBallProject\o
 C:\Users\LukeZurg22_Gaming\source\repos\Project_Countryball\CountryBallProject\obj\Release\net5.0-windows\ref\CountryBallProject.dll
 C:\Users\LukeZurg22_Gaming\source\repos\Project_Countryball\CountryBallProject\obj\Release\net5.0-windows\CountryBallProject.pdb
 C:\Users\LukeZurg22_Gaming\source\repos\Project_Countryball\CountryBallProject\obj\Release\net5.0-windows\CountryBallProject.genruntimeconfig.cache
+C:\Users\LukeZurg22_Gaming\source\repos\Project_Countryball\CountryBallProject\bin\Release\net5.0-windows\Assets\Hats\XELAREX.png

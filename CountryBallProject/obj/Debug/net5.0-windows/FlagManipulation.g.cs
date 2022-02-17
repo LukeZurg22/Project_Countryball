@@ -141,7 +141,7 @@ namespace CountryBallProject {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CountryBallProject_r2jyxy23_wpftmp;component/flagmanipulation.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CountryBallProject;component/flagmanipulation.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FlagManipulation.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

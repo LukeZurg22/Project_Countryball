@@ -109,7 +109,7 @@ namespace CountryBallProject {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CountryBallProject_r2jyxy23_wpftmp;component/hatmanipulation.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CountryBallProject;component/hatmanipulation.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\HatManipulation.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
