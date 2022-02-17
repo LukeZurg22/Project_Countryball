@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="CountryBallProject.Customizer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CountryBallProject"
+             xmlns:wpfx="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="200">
+    <Grid>
+        <ComboBox
+            Name="HatSelector"
+            Height="25"
+            Width="200"
+            SelectionChanged="HatSelector_Selected"
+            SelectedItem="blank.png"
+            Grid.Row="0">
+        </ComboBox>
+
+        <ComboBox
+            Name="EyeSelector"
+            Height="25"
+            Width="200"
+            SelectionChanged="EyeSelector_Selected"
+            SelectedItem="NEUTRAL.png"
+            Grid.Row="1">
+        </ComboBox>
+
+        <ComboBox
+            Name="StyleSelector"
+            Height="25"
+            Width="200"
+            Margin="0,0,0,0"
+            SelectedItem="Circle_Sharp.png"
+            SelectionChanged="StyleSelector_SelectionChanged"
+            Grid.Row="2">
+        </ComboBox>
+
+        <wpfx:ColorPicker
+            x:Name="BallBackgroundPicker"
+            Width="170"
+            Height="25"
+            SelectedColor="White"
+            UsingAlphaChannel="False"
+            HorizontalAlignment="Right"
+            Grid.Row="3"
+            SelectedColorChanged="BallBackgroundPicker_SelectedColorChanged">
+        </wpfx:ColorPicker>
+        <CheckBox
+            x:Name="BackgroundBox"
+            Width="15"
+            Height="15"
+            Grid.Row="3"
+            HorizontalAlignment="Left"
+            RenderTransformOrigin="0.5,0.5"
+            Click="CheckBox_Click"
+            IsChecked="True"
+            >
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="2" ScaleY="2"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+
+        </CheckBox>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+    </Grid>
+</UserControl>

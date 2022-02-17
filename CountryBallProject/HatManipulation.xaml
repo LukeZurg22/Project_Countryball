@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="CountryBallProject.HatManipulation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CountryBallProject"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="200">
+
+    <Grid Width="200" Margin="0,0,0,0">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0">
+            <Rectangle
+                Width="87.5"
+                Height="52.5"
+                Fill="Black"
+                Stroke="Gray">
+            </Rectangle>
+        </Grid>
+
+
+        <Grid VerticalAlignment="Bottom" Grid.Row="1" Margin="0,0,0,0">
+            <Button
+                x:Name="FlagMoverLeft"
+                Content="Left"
+                Width="35"
+                VerticalAlignment="Center"
+                Grid.Row="1"
+                Margin="0,0,80,0">
+            </Button>
+            <Button
+                x:Name="FlagMoverRight"
+                Content="Right"
+                Width="35"
+                VerticalAlignment="Center"
+                Margin="0,0,-80,0">
+            </Button>
+            <Button
+                x:Name="FlagMoverUp"
+                Content="Up"
+                Width="35"
+                VerticalAlignment="Center"
+                Margin="0,0,0,60">
+            </Button>
+            <Button
+                x:Name="FlagMoverDown"
+                Content="Down"
+                Width="35"
+                VerticalAlignment="Center"
+                Margin="0,0,0,-60">
+            </Button>
+
+            <Button
+                x:Name="FlagReset"
+                Width="25"
+                Height="25"
+                VerticalAlignment="Center"
+                Margin="0,0,0,0">
+                <Image Source="/Assets/Icons/Reset.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Button>
+
+            <Button
+                x:Name="FlagExpandSize"
+                Width="20"
+                VerticalAlignment="Center"
+                Margin="90,0,0,60">
+                <Image Source="/Assets/Icons/Expand.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Button>
+            <Button
+                x:Name="FlagCompressSize"
+                Width="20"
+                VerticalAlignment="Center"
+                Margin="-90,0,0,60">
+                <Image Source="/Assets/Icons/Compress.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Button>
+        </Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+    </Grid>
+</UserControl>

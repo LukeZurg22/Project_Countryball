@@ -1,0 +1,202 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <NoWarn>NU1701</NoWarn>
+    <NoWarn>CS0108, NU1605</NoWarn>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors></WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Agartha Nao%27mel.png" />
+    <None Remove="Assets\Eyes\ANGRY.png" />
+    <None Remove="Assets\Eyes\ANNOYED.png" />
+    <None Remove="Assets\Eyes\BLANK.png" />
+    <None Remove="Assets\Eyes\DUMB.png" />
+    <None Remove="Assets\Eyes\EXAUSTED.png" />
+    <None Remove="Assets\Eyes\HAPPY.png" />
+    <None Remove="Assets\Eyes\LAUGH.png" />
+    <None Remove="Assets\Eyes\NARROWED.png" />
+    <None Remove="Assets\Eyes\NEUTRAL.png" />
+    <None Remove="Assets\Eyes\SAD.png" />
+    <None Remove="Assets\Eyes\SMILE.png" />
+    <None Remove="Assets\Eyes\STERN.png" />
+    <None Remove="Assets\Eyes\SURPRISED.png" />
+    <None Remove="Assets\Eyes\SUSPICIOUS.png" />
+    <None Remove="Assets\Flags\Poland.png" />
+    <None Remove="Assets\Flags\Proper_Poland.png" />
+    <None Remove="Assets\Flags\Sadozai.jpg" />
+    <None Remove="Assets\Hats\E.png" />
+    <None Remove="Assets\Hats\EB.png" />
+    <None Remove="Assets\Hats\ENDER.png" />
+    <None Remove="Assets\Hats\FORT.png" />
+    <None Remove="Assets\Hats\GAMING.png" />
+    <None Remove="Assets\Hats\LUKE.png" />
+    <None Remove="Assets\Hats\MilitaryHat.png" />
+    <None Remove="Assets\Hats\PONY.png" />
+    <None Remove="Assets\Hats\THANOS.png" />
+    <None Remove="Assets\Hats\TRAPPY.png" />
+    <None Remove="Assets\Hats\TURK.png" />
+    <None Remove="Assets\Hats\VOID.png" />
+    <None Remove="Assets\Icons\Compress.png" />
+    <None Remove="Assets\Icons\Down.png" />
+    <None Remove="Assets\Icons\Expand.png" />
+    <None Remove="Assets\Icons\Left.png" />
+    <None Remove="Assets\Icons\Reset.png" />
+    <None Remove="Assets\Icons\Right.png" />
+    <None Remove="Assets\Icons\Up.png" />
+    <None Remove="Assets\Styles\Circle_3D.png" />
+    <None Remove="Assets\Styles\Circle_Sharp.png" />
+    <None Remove="Assets\Styles\Circle_Traditional.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Eyes\BLANK.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\ANGRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\ANNOYED.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\DUMB.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\EXAUSTED.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\HAPPY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\LAUGH.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\NARROWED.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\NEUTRAL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\SAD.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\SMILE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\STERN.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\SURPRISED.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\SUSPICIOUS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Flags\Proper_Poland.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Flags\Sadozai.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\blank.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\E.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\ENDER.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\FORT.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\GAMING.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\LUKE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\PONY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\THANOS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\TRAPPY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\TURK.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\VOID.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Styles\Circle_3D.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Flags\Poland.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Styles\Circle_Sharp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.2.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta14" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    <PackageReference Include="WindowsAPICodePack-Core" Version="1.1.2" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Agartha Nao'mel.png" />
+    <Resource Include="Assets\Icons\Compress.png" />
+    <Resource Include="Assets\Icons\Down.png" />
+    <Resource Include="Assets\Icons\Expand.png" />
+    <Resource Include="Assets\Icons\Left.png" />
+    <Resource Include="Assets\Icons\Reset.png" />
+    <Resource Include="Assets\Icons\Right.png" />
+    <Resource Include="Assets\Icons\Up.png" />
+    <Content Include="Assets\Styles\Circle_Traditional.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\EB.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Hats\MilitaryHat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="HatManipulation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="HatManipulation.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>
