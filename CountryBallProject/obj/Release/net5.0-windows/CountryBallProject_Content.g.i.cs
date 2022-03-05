@@ -12,6 +12,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/angry.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/annoyed.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/confused.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/dead.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/dumb.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/exausted.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/eyes/happy.png")]

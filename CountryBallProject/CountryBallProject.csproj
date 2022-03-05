@@ -20,6 +20,7 @@
     <None Remove="Assets\Eyes\ANNOYED.png" />
     <None Remove="Assets\Eyes\BLANK.png" />
     <None Remove="Assets\Eyes\CONFUSED.png" />
+    <None Remove="Assets\Eyes\DEAD.png" />
     <None Remove="Assets\Eyes\DUMB.png" />
     <None Remove="Assets\Eyes\EXAUSTED.png" />
     <None Remove="Assets\Eyes\HAPPY.png" />
@@ -70,6 +71,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Eyes\CONFUSED.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Eyes\DEAD.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Eyes\DUMB.png">
